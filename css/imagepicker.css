@@ -1,0 +1,87 @@
+
+
+.imagepicker {
+    display: block;
+    height: 80px;
+    /*margin: 20px 0 20px 0px;*/
+    position: relative;
+    width: 240px;
+}
+.imagepicker	.preview{
+		float: left;
+		width: 100px;
+		height: 100px;	
+	}
+	
+	
+.imagepicker .preview img{
+		border: #000 5px solid;
+	}
+	
+	
+.imagepicker .title{
+		display:block;
+		width: auto;
+		padding:10px;
+		margin-left:100px;
+		z-index: 10;
+		background: #ccc;
+		border:#000000 1px solid;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+	}
+.imagepicker .content{
+		width: 288px;
+		min-height: 200px;
+		background: #F5F5F5;
+		margin-left:100px;
+		list-style: none;
+		display:none;
+		color:.fff;
+		position:absolute;
+		/*top: 20px;
+		left: -30px;
+		overflow:auto;*/
+		border:#000000 1px solid;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+		 box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.80);
+    -moz-box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.80);
+    -webkit-box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.80);
+    z-index: 100;
+		
+	}
+.imagepicker .wrapper{
+		background: .de9a44;
+		display:block;
+		width: 340px;
+		margin: 10px auto;
+	}
+.imagepicker		.content ul{
+			padding:0px;
+			margin:0px;
+		}
+		
+.imagepicker .content .pickerImage{
+			float:left;
+			display:block;
+			padding: 10px;
+			height: 60px;
+			background: .DE9A44;
+		}
+.imagepicker .content .pickerImage img{
+			background:url(../img/ajax-loader.gif) 50% 50% no-repeat;
+			width: 50px;
+			height: 50px;
+			padding:10px;
+			cursor: pointer;
+		}
+.imagepicker .content .pickerImage img.selected{
+			background:#333;
+			border:#000 1px solid;
+			box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.80);
+		    -moz-box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.80);
+		    -webkit-box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.80);
+		}
